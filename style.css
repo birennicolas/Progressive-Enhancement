@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C1EADE;
+    background-image: url('media/Sheep.jpg');
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+p {
+    font-family: 'Bree Serif', serif;
+    color: black;
+    word-spacing: 3px;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+
+}
+q {
+    display: block;
+    font-size: 160%;
+    background-color: #D6DBDA;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.villagers {
+
+    color:rgb(143, 85, 109);
+    border-left: 5px solid red;
+}
+
+.farmer {
+    border-left: 5px solid green;
+
+
+}
+.good {
+    text-transform: capitalize;
+    color: green
+}
+.bad {
+    text-transform: capitalize;
+    color:red;
+}
+
+#pouce{
+    background-image: url('media/bien.png');
+	padding-right: 2px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 19px;
+
+}
+#evil{
+    background-image: url('media/mal.png');
+	padding-right: 2px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 19px;
+
+}
+#cat{
+    background-image: url('media/chat.png');
+	padding-right: 2px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 19px;
+
+}
+
+a:link {
+    color:black;
+   
+} 
+
+a:visited {
+    color:red;
+}
+
+a:hover {
+    color:blue;
+}
+
+.link1 {
+    font-size: 30px;
+}
+
+header > h2 {
+    background-color: yellow;
+}
+
+.firstdiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.align{
+    position: relative;
+    top: 50%;
+    transform: translateY(30%);
+    margin-right: 2vw;
+}
