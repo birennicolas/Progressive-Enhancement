@@ -26,14 +26,20 @@ h1 {
     font-family: 'Bree Serif', serif;
 
 }
+
+
 q {
-    display: block;
-    font-size: 160%;
+    display:block;
+    font-size: 150%;
     background-color: #D6DBDA;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    color:black;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding-left: 30px;
     font-style: italic;
+    text-align: right;
+    max-width: max-content;
+
 }
 
 ul{
@@ -70,7 +76,7 @@ li{
 	padding-right: 2px;
 	background-repeat: no-repeat;
 	background-position: 50%;
-	background-size: 19px;
+	background-size: 20px;
 
 }
 #evil{
@@ -78,7 +84,7 @@ li{
 	padding-right: 2px;
 	background-repeat: no-repeat;
 	background-position: 50%;
-	background-size: 19px;
+	background-size: 20px;
 
 }
 #cat{
@@ -86,7 +92,7 @@ li{
 	padding-right: 2px;
 	background-repeat: no-repeat;
 	background-position: 50%;
-	background-size: 19px;
+	background-size: 20px;
 
 }
 
@@ -109,6 +115,7 @@ a:hover {
 
 header > h2 {
     background-color: yellow;
+    max-width: max-content;
 }
 
 .firstdiv{
@@ -117,9 +124,66 @@ header > h2 {
     justify-content: space-between;
 }
 
+.seconddiv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirddiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whitetext {
+    color:white;
+}
+
+.space {
+    font-size: 20px;
+}
+
+.farmerpic {
+    margin-top: 10vh;
+    align-items:center;
+    padding-left: 10px;
+}
+
 .align{
     position: relative;
     top: 50%;
     transform: translateY(30%);
     margin-right: 2vw;
+    font-size: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.white {
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px ;
+    padding: 10px;
+}
+
+.grey {
+    background-color: grey;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+#conclusion{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: white;
 }
